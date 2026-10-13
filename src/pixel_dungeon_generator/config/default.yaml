@@ -1,0 +1,23 @@
+paths:
+  root: "."
+  packs: "tilepacks"
+  out: "out"
+
+generation:
+  default_generator: "wfc"
+  max_rooms: 64
+  max_width: 256
+  max_height: 256
+  seed_range: [0, 2**31 - 1]
+
+onnx:
+  policy: "config/onnx_policy.yaml"
+  allow_custom_ops: false
+
+export:
+  formats: ["png", "json", "tmx"]
+  tile_size: 16
+
+logging:
+  level: "INFO"
+  json: false
