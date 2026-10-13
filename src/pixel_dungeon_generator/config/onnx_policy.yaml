@@ -1,0 +1,7 @@
+# ONNX loading policy. Anything not listed here is refused at load time.
+allowed_providers:
+  - "CPUExecutionProvider"
+allow_custom_operators: false
+max_model_bytes: 268435456  # 256 MiB
+require_sha256: true
+trusted_hashes: []  # populated by the user for pinned checkpoints
