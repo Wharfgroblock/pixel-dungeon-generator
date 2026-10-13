@@ -1,0 +1,9 @@
+name: default_16
+tile_size: 16
+biome: stone
+tiles:
+  floor: tiles/floor.png
+  wall: tiles/wall.png
+  door: tiles/door.png
+  stairs: tiles/stairs.png
+  chest: tiles/chest.png
